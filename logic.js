@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     function giphyAPI(topicName) {
         //whatever the name is from the button that has been clicked
-        var giphyAPI = "http://api.giphy.com/v1/gifs/search?q=" + topicName + "&limit=10&api_key=DYbs1pyLJqYJIIEby0G5SgdxYzPfRTLn";
+        var giphyAPI = "https://api.giphy.com/v1/gifs/search?q=" + topicName + "&limit=10&api_key=DYbs1pyLJqYJIIEby0G5SgdxYzPfRTLn";
         $.ajax({
             url: giphyAPI,
             method: 'GET',
